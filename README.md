@@ -12,7 +12,7 @@
 * Shows a summary of expenses, and budgets
 * Use charts or graphs for visualization
 
-### Expenses & Income Module
+### Expenses Module
 
 * Forms: Add, edit, delete transactions
 * Validation: Ensure correct inputs (numbers, dates, categories)
