@@ -1,4 +1,34 @@
-# The same interface implemented in different frameworks:
+# Project Idea: "Personal Finance Manager" Web App
+
+## Core Features:
+
+### Authentication Module
+
+* Forms: Login, Signup, Password Reset
+* State Management: Store user session, authentication status
+
+### Dashboard Module
+
+* Shows a summary of expenses, and budgets
+* Use charts or graphs for visualization
+
+### Expenses & Income Module
+
+* Forms: Add, edit, delete transactions
+* Validation: Ensure correct inputs (numbers, dates, categories)
+* Fetch: transactions via API
+* Routing: /transactions, /transactions/add, /transactions/:id/edit
+
+### Budget Module
+
+* Set monthly budgets per category
+* Forms: Create/edit/delete budgets
+
+Notes:
+
+* Lazy Loading all modules
+
+# The same application implemented in 2 frameworks:
 
 * React
 * Angular
