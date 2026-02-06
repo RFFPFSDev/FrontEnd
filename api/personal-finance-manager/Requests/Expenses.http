@@ -32,5 +32,5 @@ Accept: application/json
 }
 
 ### Delete expense
-Delete {{host}}/api/v1.0/expenses/669c7c20-e3ac-4787-ba76-40385a12cd2e
+Delete {{host}}/api/v1.0/expenses/df6f05bc-1c9f-442c-9fcc-d6cb3a2b61d6
 Accept: application/json

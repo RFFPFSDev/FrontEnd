@@ -10,5 +10,6 @@ public static class ExpensesModuleRegistration
     public static void RegisterExpensesServices(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddSingleton<IExpenseService, ExpenseService>();
+        services.AddSingleton<IBudgetService, BudgetService>();
     }
 }

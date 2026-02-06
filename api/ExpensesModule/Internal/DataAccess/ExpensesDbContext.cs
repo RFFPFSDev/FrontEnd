@@ -48,7 +48,7 @@ internal class ExpensesDbContext : DbContext
         modelBuilder.Entity<BudgetEntity>(entity =>
         {
             entity.ToTable("Budget");
-            entity.HasKey(b => b.Id);
+            entity.HasKey(b => b.CategoryName);
 
             entity.Property(t => t.CreatedAt)
                   .IsRequired();

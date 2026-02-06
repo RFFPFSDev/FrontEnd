@@ -1,0 +1,18 @@
+﻿@host = https://localhost:7297
+
+### Get budgets
+Get {{host}}/api/v1.0/budgets
+Accept: application/json
+
+### Create or update expense
+Post {{host}}/api/v1.0/budgets
+Content-Type: application/json
+Accept: application/json
+{
+    "amount" : 1000,
+    "categoryname" : "Food"
+}
+
+### Delete expense
+Delete {{host}}/api/v1.0/budgets/Food
+Accept: application/json
