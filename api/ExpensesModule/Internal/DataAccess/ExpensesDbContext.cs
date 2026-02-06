@@ -4,7 +4,7 @@ internal class ExpensesDbContext : DbContext
 {
     public DbSet<CategoryEntity> Categories { get; set; } = null!;
     public DbSet<BudgetEntity> Budgets { get; set; } = null!;
-    public DbSet<TransactionEntity> Transactions { get; set; } = null!;
+    public DbSet<ExpenseEntity> Transactions { get; set; } = null!;
 
     public ExpensesDbContext(DbContextOptions<ExpensesDbContext> options) : base(options) { }
 
@@ -21,7 +21,7 @@ internal class ExpensesDbContext : DbContext
                   .IsRequired();
         });
 
-        modelBuilder.Entity<TransactionEntity>(entity =>
+        modelBuilder.Entity<ExpenseEntity>(entity =>
         {
             entity.ToTable("Transaction");
             entity.HasKey(t => t.Id);

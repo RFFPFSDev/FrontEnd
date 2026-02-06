@@ -1,0 +1,36 @@
+﻿@host = https://localhost:7297
+
+### Get expenses
+Get {{host}}/api/v1.0/expenses
+Accept: application/json
+
+### Create expense
+Post {{host}}/api/v1.0/expenses
+Content-Type: application/json
+Accept: application/json
+{
+  "userId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "userName": "johndoe",
+  "description": "Grocery shopping",
+  "amount": 1200,
+  "date": "2026-02-06T14:30:00Z",
+  "categoryName": "Food"
+}
+
+### Update expense
+Post {{host}}/api/v1.0/expenses
+Content-Type: application/json
+Accept: application/json
+{
+  "id": "df6f05bc-1c9f-442c-9fcc-d6cb3a2b61d6",
+  "userId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "userName": "johndoe",
+  "description": "Grocery shopping",
+  "amount": 1250,
+  "date": "2026-02-06T14:30:00Z",
+  "categoryName": "Food"
+}
+
+### Delete expense
+Delete {{host}}/api/v1.0/expenses/669c7c20-e3ac-4787-ba76-40385a12cd2e
+Accept: application/json

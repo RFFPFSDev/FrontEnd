@@ -14,17 +14,13 @@
 
 ### Expenses Module
 
-* Forms: Add, edit, delete transactions
-* Validation: Ensure correct inputs (numbers, dates, categories)
-* Fetch: transactions via API
-* Routing: /transactions, /transactions/add, /transactions/:id/edit
-
-### Budget Module
-
-* Set monthly budgets per category
+* Forms: Add, edit, delete expenses
 * Forms: Create/edit/delete budgets
+* Validation: Ensure correct inputs (numbers, dates, categories)
+* Set monthly budgets per category
+* Create categories if new
 
-Notes:
+### Notes:
 
 * Lazy Loading all modules
 

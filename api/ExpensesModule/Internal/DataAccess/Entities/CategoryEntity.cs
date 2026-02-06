@@ -8,7 +8,7 @@ internal class CategoryEntity
 
     public string Name { get; set; }
 
-    public ICollection<TransactionEntity> Transactions { get; set; } = new List<TransactionEntity>();
+    public ICollection<ExpenseEntity> Transactions { get; set; } = new List<ExpenseEntity>();
 
     public ICollection<BudgetEntity> Budgets { get; set; } = new List<BudgetEntity>();
 }

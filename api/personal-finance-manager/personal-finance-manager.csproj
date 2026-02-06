@@ -7,4 +7,10 @@
     <RootNamespace>personal_finance_manager</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AuthModule\AuthModule.csproj" />
+    <ProjectReference Include="..\DashboardModule\DashboardModule.csproj" />
+    <ProjectReference Include="..\ExpensesModule\ExpensesModule.csproj" />
+  </ItemGroup>
+
 </Project>

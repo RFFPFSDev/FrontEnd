@@ -1,6 +1,6 @@
 ﻿namespace ExpensesModule.Internal.DataAccess.Entities;
 
-internal class TransactionEntity : BaseEntity
+internal class ExpenseEntity : BaseEntity
 {
     public Guid UserId { get; set; }
     public string Description { get; set; }
